@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");
+
+* {
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+}
+
+html {
+  background: url(https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80);
+  height: auto;
+}
+
+h1 {
+  font-family: Permanent Marker;
+  font-size: xxx-large;
+}
+
+h2 {
+  font-family: Patrick Hand;
+  font-size: xx-large;
+}
+
+h1,
+h2,
+li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 1rem;
+}
+
+li a {
+  font-family: ABeeZee;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.gallery h1 {
+  text-align: center;
+  padding-left: 10rem;
+}
+
+.picture img {
+  width: 150px;
+  height: 100px;
+  margin-right: -13px;
+  margin-left: -17px;
+  margin-top: -17px;
+  margin-bottom: -17px;
+}
+
+.pictures1 .pictures2 {
+  /* display: grid; */
+  /* grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr; */
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  /* border: solid 50px red; */
+  /* grid-template-columns: 0.1fr; */
+  /* grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+  /* justify-content: start; */
+  /* padding: 0px;
+  border: 0px; */
+}
+
+.pictures {
+  width: 90%;
+  height: 700px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  /* align-content: space-between; */
+}
+
+table {
+  background-color: rgb(228, 105, 34);
+}
+
+th {
+  /* border: solid 4px brown; */
+  padding: 0;
+}
+
+td {
+  /* border: solid 4px brown; */
+  padding: 0;
+}
+
+th img {
+  width: 350px;
+}
+
+td img {
+  width: 300px;
+}
+
+.td td img {
+  width: 250px;
+}
+
+#copy {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
